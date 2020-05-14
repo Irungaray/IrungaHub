@@ -1,0 +1,26 @@
+{
+  "name": "irungahub",
+  "version": "1.0.0",
+  "description": "Porno? see",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irungaray/IrungaHub.git"
+  },
+  "keywords": [
+    "porno"
+  ],
+  "author": "Irungaray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irungaray/IrungaHub/issues"
+  },
+  "homepage": "https://github.com/Irungaray/IrungaHub#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
