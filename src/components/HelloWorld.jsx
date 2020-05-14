@@ -1,6 +1,7 @@
 import React from 'react'
+import '../assets/styles/App.scss'
 
-const HelloWorld = () => ( 
+const HelloWorld = () => (
     <h1>Hola capo</h1>
 )
 
