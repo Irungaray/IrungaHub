@@ -1,5 +1,8 @@
+@import "./Vars.scss";
+@import './Media.scss';
+
 body {
     margin: 0px;
-    font-family: Roboto;
+    font-family: $theme-font;
     background-color: #dbdbdb;
 }

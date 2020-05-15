@@ -11,18 +11,31 @@ const App = () => (
     <div className="App">
         <Header />
         <Search />
-
         <Categories>
+            <Carousel title="Mi lista">
+                <CarouselItem />
+                <CarouselItem />
+                <CarouselItem />
+                <CarouselItem />
+            </Carousel>
+        </Categories>
+
+        <Categories title="Populares">
             <Carousel>
-
                 <CarouselItem />
-
                 <CarouselItem />
-
                 <CarouselItem />
+            </Carousel>
+        </Categories>
 
+        <Categories title="Originales de IrungaHub">
+            <Carousel>
                 <CarouselItem />
-
+                <CarouselItem />
+                <CarouselItem />
+                <CarouselItem />
+                <CarouselItem />
+                <CarouselItem />
             </Carousel>
         </Categories>
 
