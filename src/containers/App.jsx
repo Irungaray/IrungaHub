@@ -18,7 +18,7 @@ const App = () => {
             .then(data => setVideos(data))
     }, [])
 
-    return (
+    return videos.length === 0 ? <h1>Loading...</h1> : (
         <div className="App">
             <Header />
             <Search />
